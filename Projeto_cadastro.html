@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="estilo.css">   
+</head>
+       
+<body>
+    <div class="header">
+   
+        <nav>       
+    
+            <ul>
+              <div class="logo" style="float: left;">
+                <img width="210px"  src="convert.png" alt="">
+      
+              </div>
+            
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">Calculadora</a></li>
+                <li><a href="#contact">Cadastro</a></li>
+                <li><a href="#about">Currency</a></li>
+                
+          </ul>
+         
+        </nav>
+    </div>
+<div id ="super"> 
+
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Nome Completo" id="nome">
+        <br/>
+        <label for="cpf">CPF</label>
+        <input type="text" placeholder="CPF" id="cpf">
+        <br/>
+        <label for="nascimento">Dia de Nascimento</label>
+        <input type="text" placeholder="Dia de Nascimento" id="dia">
+        <br/>
+        <label for="mes">Mês</label>
+        <select name="mes" id="mes">
+            <option value=""></option>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+        <label for="ano">Ano</label>
+        <input type="text" placeholder="Ano" id ="ano">
+        <br/>
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="Email" id="email">
+        <br/>
+        <label for="genero">Gênero</label>
+        <select name="genero" id="genero">
+            <option value=""> </option>
+            <option value="feminino">Feminino</option>
+            <option value="masculino">Masculino</option>
+            <option value="indefinido">Não informado</option>
+        </select>
+        
+
+    </form>
+    <div id="exibicao" class="exibe"></div>
+        <button onclick="exibe()" id="exibe" class="btn">Cadastrar</button>
+    
+</div>
+
+<div class="footer"> 
+    <img style="margin: 0 auto;" width="210px"  src="convert.png" alt="">
+    <p id="footerText" style="font-size: 15px;">Powered by Flavia, Merilyn e Alexandre.</p>
+</div>    
+
+<script src="cadastro.js"></script>
+</body>
+    
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    /*padding: 5px;*/
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the footer */
+
+.footer {
+    background-color: #c3bdee;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+/*navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c3bdee;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #7861eb;
+  }
+  
+
+#super{
+    width: 100%;
+    background-color: rgb(236, 241, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, 
+select {
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+form{
+    width: 60%;
+}
+
+.exibicao{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.6rem;
+}
+
+.btn{
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(13, 224, 207);
+    width: 10%;
+    outline: none;
+    font-size: 17px;
+}
+
+.btn:hover{
+    background-color: rgb(132, 236, 228);
+}
